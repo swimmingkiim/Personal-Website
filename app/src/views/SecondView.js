@@ -38,7 +38,10 @@ const SecondView = () => {
         </>
       }
       fish={
-        <Image source="/app/assets/colorful-fish.svg" classString="fish-move" />
+        <Image
+          source="https://raw.githubusercontent.com/swimmingkiim/Personal-Website/9584fd3af810940d2bf799e6cf00baa0fc490d14/app/assets/colorful-fish.svg"
+          classString="fish-move"
+        />
       }
       resume={<BulletList InfoArray={resumeInfo} />}
     />

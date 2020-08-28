@@ -35,7 +35,7 @@ const Ul = styled.ul`
     display: inline-block;
     width: 3em;
     height: 3em;
-    background-image: url("/app/assets/shell-1.svg");
+    background-image: url("https://raw.githubusercontent.com/swimmingkiim/Personal-Website/9584fd3af810940d2bf799e6cf00baa0fc490d14/app/assets/shell-1.svg");
     background-size: contain;
     background-repeat: no-repeat;
     transform: translateX(-150%) translateY(125%);
@@ -67,7 +67,7 @@ const SubUl = styled.ul`
     display: inline-block;
     width: 2em;
     height: 2em;
-    background-image: url("/app/assets/shell-2.svg");
+    background-image: url("https://raw.githubusercontent.com/swimmingkiim/Personal-Website/9584fd3af810940d2bf799e6cf00baa0fc490d14/app/assets/shell-2.svg");
     background-size: contain;
     background-repeat: no-repeat;
     transform: translateX(-150%) translateY(125%);

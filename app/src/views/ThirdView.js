@@ -36,11 +36,21 @@ const ThirdView = () => {
         <>
           <Button
             onClickFunc={onLeftClick}
-            content={<Image source="/app/assets/arrow-left.svg" w="100%" />}
+            content={
+              <Image
+                source="https://raw.githubusercontent.com/swimmingkiim/Personal-Website/9584fd3af810940d2bf799e6cf00baa0fc490d14/app/assets/arrow-left.svg"
+                w="100%"
+              />
+            }
           />
           <Button
             onClickFunc={onRightClick}
-            content={<Image source="/app/assets/arrow-right.svg" w="100%" />}
+            content={
+              <Image
+                source="https://raw.githubusercontent.com/swimmingkiim/Personal-Website/9584fd3af810940d2bf799e6cf00baa0fc490d14/app/assets/arrow-right.svg"
+                w="100%"
+              />
+            }
           />
         </>
       }

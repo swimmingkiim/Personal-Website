@@ -16,10 +16,16 @@ const FooterView = () => {
       icons={
         <>
           <AContainer href={address.github} target="_blank">
-            <Image source="/app/assets/github.svg" w="2em" />
+            <Image
+              source="https://raw.githubusercontent.com/swimmingkiim/Personal-Website/9584fd3af810940d2bf799e6cf00baa0fc490d14/app/assets/github.svg"
+              w="2em"
+            />
           </AContainer>
           <AContainer href={address.blog} target="_blank">
-            <Image source="/app/assets/BLOG.svg" w="2em" />
+            <Image
+              source="https://raw.githubusercontent.com/swimmingkiim/Personal-Website/9584fd3af810940d2bf799e6cf00baa0fc490d14/app/assets/BLOG.svg"
+              w="2em"
+            />
           </AContainer>
         </>
       }
