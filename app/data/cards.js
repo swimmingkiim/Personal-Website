@@ -17,6 +17,15 @@ const cardsInfo = [
     thumbnail:
       "https://github.com/swimmingkiim/Personal-Website/blob/master/app/assets/python-web-scraper.png?raw=true",
   },
+  {
+    id: 3,
+    title: "GongGeul",
+    source: "https://swimmingkiim.github.io/markdown-editor/",
+    skills: "HTML, JS, React, styled-components",
+    comment: "Simple Markdown Web Editor",
+    thumbnail:
+      "https://1.bp.blogspot.com/-IRbu-b4oxBM/X1iu8ld-2oI/AAAAAAAAAHM/GIQYtn-qS54y-cQORxEr7jxcLJwYt2hxwCNcBGAsYHQ/w640-h470/%25EA%25B3%25B5%25EA%25B8%2580-%25ED%2585%258C%25EC%258A%25A4%25ED%258A%25B8.gif",
+  },
 ];
 
 export default cardsInfo;

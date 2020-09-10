@@ -24,7 +24,7 @@ const CardContainer = styled.div`
   margin: 0 5%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   background-color: aliceblue;
   border-radius: 0.5em;

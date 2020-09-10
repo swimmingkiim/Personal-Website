@@ -2,9 +2,13 @@ import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 
-const Button = ({ content, onClickFunc }) => {
+const Button = ({ content, onClickFunc, classString = "" }) => {
   return (
-    <ButtonContainer type="button" onClick={onClickFunc}>
+    <ButtonContainer
+      className={classString}
+      type="button"
+      onClick={onClickFunc}
+    >
       {content}
     </ButtonContainer>
   );

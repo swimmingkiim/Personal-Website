@@ -35,6 +35,7 @@ const ThirdView = () => {
       buttons={
         <>
           <Button
+            classString="left"
             onClickFunc={onLeftClick}
             content={
               <Image
@@ -44,6 +45,7 @@ const ThirdView = () => {
             }
           />
           <Button
+            classString="right"
             onClickFunc={onRightClick}
             content={
               <Image

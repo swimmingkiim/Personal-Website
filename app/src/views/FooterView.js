@@ -7,7 +7,7 @@ import Image from "../components/Image";
 const FooterView = () => {
   const address = {
     github: "https://github.com/swimmingkiim",
-    blog: "https://velog.io/@swimmingkiim",
+    blog: "https://swimmingkiim.blogspot.com/",
     email: "swimmingkiim@gmail.com",
   };
 

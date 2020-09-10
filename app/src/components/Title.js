@@ -14,26 +14,26 @@ const Title = ({ text, size, color = "#3481b4" }) => {
 
 const H1 = styled.h1`
   color: ${(props) => props.color};
-  font-size: 500%;
+  font-size: 300%;
 
   @media only screen and (max-width: 768px) {
-    font-size: 200%;
+    font-size: 150%;
   }
 `;
 const H2 = styled.h2`
   color: ${(props) => props.color};
-  font-size: 300%;
+  font-size: 200%;
 
   @media only screen and (max-width: 768px) {
-    font-size: 200%;
+    font-size: 100%;
   }
 `;
 const H3 = styled.h3`
   color: ${(props) => props.color};
-  font-size: 150%;
+  font-size: 100%;
 
   @media only screen and (max-width: 768px) {
-    font-size: 80%;
+    font-size: 50%;
   }
 `;
 

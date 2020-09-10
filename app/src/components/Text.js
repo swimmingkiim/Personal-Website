@@ -9,6 +9,10 @@ const Text = ({ textContent }) => {
 const TextContainer = styled.p`
   width: 100%;
   font-size: 100%;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 80%;
+  }
 `;
 
 export default Text;

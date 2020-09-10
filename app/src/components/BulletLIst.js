@@ -9,12 +9,12 @@ const BulletList = ({ InfoArray }) => {
       {InfoArray.map(({ title, content }) => {
         return (
           <Li key={`bullet-${title}`}>
-            <Title text={title} size="middle" color="#4c4c4c" />
+            <Title text={title} size="big" color="#4c4c4c" />
             <SubUl>
               {content !== [] &&
                 content.map((text, i) => (
                   <Li key={`${title}-text-${i}`}>
-                    <Title text={text} size="small" color="#4c4c4c" />
+                    <Title text={text} size="middle" color="#4c4c4c" />
                   </Li>
                 ))}
             </SubUl>
@@ -30,7 +30,7 @@ const Ul = styled.ul`
   padding-left: 5%;
   list-style-type: none;
 
-  & > li:before {
+  & > li::before {
     content: "";
     display: inline-block;
     width: 3em;
@@ -38,7 +38,7 @@ const Ul = styled.ul`
     background-image: url("https://raw.githubusercontent.com/swimmingkiim/Personal-Website/9584fd3af810940d2bf799e6cf00baa0fc490d14/app/assets/shell-1.svg");
     background-size: contain;
     background-repeat: no-repeat;
-    transform: translateX(-150%) translateY(125%);
+    transform: translateX(-150%) translateY(100%);
   }
 
   @media only screen and (max-width: 768px) {
@@ -62,7 +62,7 @@ const SubUl = styled.ul`
   padding-left: 5%;
   list-style-type: none;
 
-  & > li:before {
+  & > li::before {
     content: "";
     display: inline-block;
     width: 2em;
@@ -70,7 +70,7 @@ const SubUl = styled.ul`
     background-image: url("https://raw.githubusercontent.com/swimmingkiim/Personal-Website/9584fd3af810940d2bf799e6cf00baa0fc490d14/app/assets/shell-2.svg");
     background-size: contain;
     background-repeat: no-repeat;
-    transform: translateX(-150%) translateY(125%);
+    transform: translateX(-150%) translateY(100%);
   }
 `;
 
