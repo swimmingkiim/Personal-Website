@@ -26,6 +26,15 @@ const cardsInfo = [
     thumbnail:
       "https://1.bp.blogspot.com/-IRbu-b4oxBM/X1iu8ld-2oI/AAAAAAAAAHM/GIQYtn-qS54y-cQORxEr7jxcLJwYt2hxwCNcBGAsYHQ/w640-h470/%25EA%25B3%25B5%25EA%25B8%2580-%25ED%2585%258C%25EC%258A%25A4%25ED%258A%25B8.gif",
   },
+  {
+    id: 4,
+    title: "linkbook",
+    source: "https://swimmingkiim.github.io/linkbook/",
+    skills: "React, TypeScript, Firebase",
+    comment: "Archive useful web link with tags",
+    thumbnail:
+    "https://1.bp.blogspot.com/-soFD5giFz9k/X2LWi1qcGzI/AAAAAAAAAIE/4FuCsFWKJwgtdnafIzDZYvYEXMenoHnKQCNcBGAsYHQ/s320/linkbook-logo.png",
+  }
 ];
 
 export default cardsInfo;
